@@ -1,0 +1,98 @@
+/* Author:Zenash*/
+/*09/07/20*
+https://coolors.co/ddd5d0-cfc0bd-b8b8aa-7f9183-586f6b
+#DDD5D0
+#CFC0BD
+#B8B8AA
+#7F9183
+#586F6B
+*/
+html{
+    box-sizing:border-box;
+}
+    *, *:before, *:after{
+        box-sizing:inherit;
+}
+body{
+   
+    color:#343434;  
+    padding:0; 
+    font-family:'Montserrat', sans-serif;
+    line-height:1.5;
+    font-size:15px;     
+}
+header{
+    background-color:#586F6B;
+    color:white;   
+}
+p{
+    text-align:justify;
+}
+.projects{
+    background-color:#7F9183; 
+    margin-top:0;       
+}
+.workexp{
+    background-color:#B8B8AA
+}
+.education{
+    background-color:#CFC0BD;
+}
+img{
+    width: 300px;
+}
+a{
+    color:white;
+}
+a:focus{
+outline: 1.5px solid white; 
+}
+a:hover{
+   color :white;
+}
+h1,h2{
+    font-family: 'Caveat', cursive;
+    line-height: 0.5;
+}
+h1{ 
+    font-size:100px; 
+}
+h2{
+  font-size:45px;    
+}
+.content-wrap{
+    width:800px;
+    margin:0 auto;
+    padding:50px 0;    
+}
+.projects a{
+    text-decoration: none;
+    background:#586F6B;
+    padding:10px;
+    border-radius: 4px;    
+}
+.projects a:hover{
+     background:rgba(52, 53, 71, 0.75);
+}
+.project-item{
+    overflow:hidden;
+}
+
+footer{
+    background-color:#DDD5D0;
+    overflow:hidden; 
+     
+}
+li{
+    list-style:none; 
+    float:left;   
+    padding:25px; 
+ }
+ a{
+     text-decoration:none;
+     color:black;    
+ }
+  .icon{
+    width:45px; 
+    float:left;
+ }
