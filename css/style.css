@@ -14,19 +14,20 @@ html{
         box-sizing:inherit;
 }
 body{
-   
-    color:#343434;  
+    color: black;
     padding:0; 
     font-family:'Montserrat', sans-serif;
     line-height:1.5;
     font-size:15px;     
 }
+
 header{
     background-color:#586F6B;
     color:white;   
 }
 p{
     text-align:justify;
+    padding:5px;
 }
 .projects{
     background-color:#7F9183; 
@@ -40,6 +41,20 @@ p{
 }
 img{
     width: 300px;
+    float:left;
+    padding-right:20px;
+}
+.project-item{
+    float: left;
+}
+.projects{
+    overflow: hidden;
+}
+.project-item.par{
+    padding-left:10px;
+}
+.workexp{
+    clear: both;
 }
 a{
     color:white;
@@ -60,6 +75,7 @@ h1{
 h2{
   font-size:45px;    
 }
+
 .content-wrap{
     width:800px;
     margin:0 auto;
@@ -73,9 +89,6 @@ h2{
 }
 .projects a:hover{
      background:rgba(52, 53, 71, 0.75);
-}
-.project-item{
-    overflow:hidden;
 }
 
 footer{
@@ -95,4 +108,9 @@ li{
   .icon{
     width:45px; 
     float:left;
+}
+
+ ul li a:hover{
+     color:blue;
  }
+
