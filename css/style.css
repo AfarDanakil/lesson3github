@@ -1,11 +1,7 @@
 /* Author:Zenash*/
 /*09/07/20*
 https://coolors.co/ddd5d0-cfc0bd-b8b8aa-7f9183-586f6b
-#DDD5D0
-#CFC0BD
-#B8B8AA
-#7F9183
-#586F6B
+
 */
 html{
     box-sizing:border-box;
@@ -50,9 +46,7 @@ img{
 .projects{
     overflow: hidden;
 }
-.project-item.par{
-    padding-left:10px;
-}
+
 .workexp{
     clear: both;
 }
@@ -106,7 +100,7 @@ li{
      color:black;    
  }
   .icon{
-    width:45px; 
+    width:60px; 
     float:left;
 }
 
